@@ -32,12 +32,3 @@ function choujiang() {
     sort($blue_balls_true);
     return [$red_balls_true,$blue_balls_true];
 }
-
-list($red_balls_true,$blue_balls_true) = choujiang();
-foreach ($red_balls_true as $item) {
-    echo $item.' ';
-}
-echo "| ";
-foreach ($blue_balls_true as $item) {
-    echo $item;
-}
